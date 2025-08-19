@@ -4,7 +4,7 @@
     "description": "Display Mail Quota in chart for Roundcube.",
     "homepage": "https://github.com/texxasrulez/roundcube_plugin_quota",
     "license": "GPL-3.0",
-    "version": "0.3",
+    "version": "0.4",
     "authors": [
         {
             "name": "Gene Hawkins",
