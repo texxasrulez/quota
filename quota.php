@@ -88,6 +88,12 @@ class quota extends rcube_plugin
             $quotaFreePercents = 100 - $quotaUsedPercents;
         }
 
+        // Define form title (with translation fallback)
+        $form_title = $this->gettext('quotasettings');
+        if (empty($form_title)) {
+            $form_title = 'Quota Settings';
+        }
+
         $out = (
             html::div(
                 array('class' => 'box'),
