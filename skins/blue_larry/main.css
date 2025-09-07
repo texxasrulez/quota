@@ -10,7 +10,7 @@ li.quota > a {
   background-image: url('./images/quota.svg') !important;
   background-repeat: no-repeat !important;
   background-position: 8px center !important;
-  background-size: 20px 20px !important;
+  background-size: 18px 18px !important;
   padding-left: 36px; /* ensure text doesn't overlap the icon */
 }
 
