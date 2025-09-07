@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Pašto dėžučių kvota';
+$labels['quotasettings'] = 'Pašto dėžučių kvota';
 $labels['chart_title'] = 'Pašto dėžučių kvotų diagrama';
 $labels['space_used'] = 'Naudojama pašto dėžučių kvota';
 $labels['space_free'] = 'Pašto dėžutės kvota nemokamai';

@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Квота почтовых ящиков';
+$labels['quotasettings'] = 'Квота почтовых ящиков';
 $labels['chart_title'] = 'Диаграмма квот почтовых ящиков';
 $labels['space_used'] = 'Используемая квота почтовых ящиков';
 $labels['space_free'] = 'Квота почтового ящика бесплатно';

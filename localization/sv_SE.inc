@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Kvot för brevlåda';
+$labels['quotasettings'] = 'Kvot för brevlåda';
 $labels['chart_title'] = 'Kvotdiagram för brevlåda';
 $labels['space_used'] = 'Använd kvot för brevlåda';
 $labels['space_free'] = 'Kvot för brevlåda gratis';

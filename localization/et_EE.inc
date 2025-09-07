@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Postkasti kvoot';
+$labels['quotasettings'] = 'Postkasti kvoot';
 $labels['chart_title'] = 'Postkastide kvootide tabel';
 $labels['space_used'] = 'Kasutatud postkasti kvoot';
 $labels['space_free'] = 'Postkasti kvoot tasuta';

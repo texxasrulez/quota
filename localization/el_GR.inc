@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Ποσοστό γραμματοκιβωτίων';
+$labels['quotasettings'] = 'Ποσοστό γραμματοκιβωτίων';
 $labels['chart_title'] = 'Διάγραμμα ποσόστωσης γραμματοκιβωτίων';
 $labels['space_used'] = 'Χρησιμοποιημένη ποσόστωση γραμματοκιβωτίων';
 $labels['space_free'] = 'Ποσοστό γραμματοκιβωτίου δωρεάν';

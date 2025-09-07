@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Mailbox Quota';
+$labels['quotasettings'] = 'Mailbox Quota';
 $labels['chart_title'] = 'Mailbox Quota Chart';
 $labels['space_used'] = 'Mailbox Quota Used';
 $labels['space_free'] = 'Mailbox Quota Free';

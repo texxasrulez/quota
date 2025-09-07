@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'حصة صندوق البريد';
+$labels['quotasettings'] = 'حصة صندوق البريد';
 $labels['chart_title'] = 'مخطط حصص صندوق البريد';
 $labels['space_used'] = 'حصة صندوق البريد المستخدمة';
 $labels['space_free'] = 'حصة صندوق البريد مجاناً';

@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Giới hạn dung lượng hộp thư';
+$labels['quotasettings'] = 'Giới hạn dung lượng hộp thư';
 $labels['chart_title'] = 'Biểu đồ giới hạn dung lượng hộp thư';
 $labels['space_used'] = 'Dung lượng hộp thư đã sử dụng';
 $labels['space_free'] = 'Dung lượng hộp thư miễn phí';

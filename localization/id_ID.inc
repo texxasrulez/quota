@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Kuota Kotak Surat';
+$labels['quotasettings'] = 'Kuota Kotak Surat';
 $labels['chart_title'] = 'Bagan Kuota Kotak Surat';
 $labels['space_used'] = 'Kuota Kotak Surat yang Digunakan';
 $labels['space_free'] = 'Gratis Kuota Kotak Surat';

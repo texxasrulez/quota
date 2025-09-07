@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Kvóta poštovních schránek';
+$labels['quotasettings'] = 'Kvóta poštovních schránek';
 $labels['chart_title'] = 'Graf kvót poštovních schránek';
 $labels['space_used'] = 'Použitá kvóta poštovních schránek';
 $labels['space_free'] = 'Kvóta poštovních schránek zdarma';

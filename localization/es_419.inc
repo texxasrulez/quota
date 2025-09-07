@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Cuota de buzones';
+$labels['quotasettings'] = 'Cuota de buzones';
 $labels['chart_title'] = 'Cuadro de cuotas de buzones';
 $labels['space_used'] = 'Cuota de buzones utilizada';
 $labels['space_free'] = 'Cuota de buzones gratuita';

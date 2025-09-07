@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Kvote for postkasse';
+$labels['quotasettings'] = 'Kvote for postkasse';
 $labels['chart_title'] = 'Oversigt over postkasse-kvoter';
 $labels['space_used'] = 'Anvendt postkassekvote';
 $labels['space_free'] = 'Kvotefri postkasse';

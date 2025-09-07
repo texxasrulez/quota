@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Postafiók kvóta';
+$labels['quotasettings'] = 'Postafiók kvóta';
 $labels['chart_title'] = 'Postafiók-kvóta táblázat';
 $labels['space_used'] = 'Használt postafiók kvóta';
 $labels['space_free'] = 'Mailbox kvóta ingyenes';

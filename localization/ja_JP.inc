@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'メールボックス・クォータ';
+$labels['quotasettings'] = 'メールボックス・クォータ';
 $labels['chart_title'] = 'メールボックス割り当て表';
 $labels['space_used'] = '使用メールボックス・クォータ';
 $labels['space_free'] = 'メールボックス・クォータ・フリー';

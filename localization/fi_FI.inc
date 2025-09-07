@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Postilaatikon kiintiö';
+$labels['quotasettings'] = 'Postilaatikon kiintiö';
 $labels['chart_title'] = 'Postilaatikon kiintiökaavio';
 $labels['space_used'] = 'Käytetty postilaatikkokiintiö';
 $labels['space_free'] = 'Postilaatikon kiintiö ilmaiseksi';

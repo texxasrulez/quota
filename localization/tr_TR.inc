@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Posta Kutusu Kotası';
+$labels['quotasettings'] = 'Posta Kutusu Kotası';
 $labels['chart_title'] = 'Posta Kutusu Kota Tablosu';
 $labels['space_used'] = 'Kullanılan Posta Kutusu Kotası';
 $labels['space_free'] = 'Posta Kutusu Kotası Ücretsiz';

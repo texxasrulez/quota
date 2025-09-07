@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Квота поштової скриньки';
+$labels['quotasettings'] = 'Квота поштової скриньки';
 $labels['chart_title'] = 'Таблиця квот поштових скриньок';
 $labels['space_used'] = 'Використано квоту поштової скриньки';
 $labels['space_free'] = 'Поштова скринька без квоти';

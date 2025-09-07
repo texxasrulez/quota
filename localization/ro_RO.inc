@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Cota căsuței poștale';
+$labels['quotasettings'] = 'Cota căsuței poștale';
 $labels['chart_title'] = 'Tabel cote căsuță poștală';
 $labels['space_used'] = 'Cota căsuței poștale utilizată';
 $labels['space_free'] = 'Cota de căsuță poștală gratuită';

@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Pasta kastītes kvota';
+$labels['quotasettings'] = 'Pasta kastītes kvota';
 $labels['chart_title'] = 'Pastkastītes kvotas diagramma';
 $labels['space_used'] = 'Izmantotā pastkastes kvota';
 $labels['space_free'] = 'Pasta kastītes kvota bez maksas';

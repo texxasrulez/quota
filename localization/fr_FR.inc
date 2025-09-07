@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Quota de boîte aux lettres';
+$labels['quotasettings'] = 'Quota de boîte aux lettres';
 $labels['chart_title'] = 'Tableau des quotas de boîtes aux lettres';
 $labels['space_used'] = 'Quota de boîte aux lettres utilisé';
 $labels['space_free'] = 'Quota de boîte aux lettres gratuit';

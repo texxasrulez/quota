@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Cota de caixa de correio';
+$labels['quotasettings'] = 'Cota de caixa de correio';
 $labels['chart_title'] = 'Gráfico de cota de caixa de correio';
 $labels['space_used'] = 'Cota de caixa de correio usada';
 $labels['space_free'] = 'Cota de caixa de correio gratuita';

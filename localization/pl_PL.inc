@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Limit skrzynki pocztowej';
+$labels['quotasettings'] = 'Limit skrzynki pocztowej';
 $labels['chart_title'] = 'Tabela limitów skrzynek pocztowych';
 $labels['space_used'] = 'Wykorzystany limit skrzynki pocztowej';
 $labels['space_free'] = 'Wolny limit skrzynki pocztowej';

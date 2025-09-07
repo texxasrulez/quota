@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Mailbox quota';
+$labels['quotasettings'] = 'Mailbox quota';
 $labels['chart_title'] = 'Overzicht mailbox quota';
 $labels['space_used'] = 'Gebruikt mailbox quotum';
 $labels['space_free'] = 'Mailbox quotum gratis';

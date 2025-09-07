@@ -3,14 +3,22 @@
 	default CSS last updated in version 2009-09-26
 */
 
-#settings-sections .quota a {
-	background-image: url(images/quota.png);
-	background-repeat: no-repeat;
-	background-position: 7px -23px;
+#settings-sections a.quota,
+#settings-sections li.quota > a,
+a.listitem.quota,
+li.quota > a {
+  background-image: url('./images/quota.svg') !important;
+  background-repeat: no-repeat !important;
+  background-position: 8px center !important;
+  background-size: 18px 18px !important;
+  padding-left: 36px; /* ensure text doesn't overlap the icon */
 }
 
-#settings-sections .quota.selected a {
-	background-image: url(images/quota.png);
-	background-repeat: no-repeat;
-	background-position: 7px 1px;
+#settings-sections a.quota.selected,
+#settings-sections li.quota.selected > a,
+a.listitem.quota.selected,
+a.listitem.quota:focus,
+a.listitem.quota:hover,
+li.quota > a.selected {
+  background-image: url('./images/quota_act.svg') !important;
 }

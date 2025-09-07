@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Квота на пощенската кутия';
+$labels['quotasettings'] = 'Квота на пощенската кутия';
 $labels['chart_title'] = 'Диаграма на квотите за пощенски кутии';
 $labels['space_used'] = 'Използвана квота за пощенски кутии';
 $labels['space_free'] = 'Безплатна квота на пощенската кутия';

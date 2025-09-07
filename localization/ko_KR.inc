@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = '사서함 할당량';
+$labels['quotasettings'] = '사서함 할당량';
 $labels['chart_title'] = '사서함 할당량 차트';
 $labels['space_used'] = '사서함 할당량 사용';
 $labels['space_free'] = '사서함 할당량 무료';

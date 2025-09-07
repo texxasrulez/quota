@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'מכסת תיבת דואר';
+$labels['quotasettings'] = 'מכסת תיבת דואר';
 $labels['chart_title'] = 'תרשים מכסת תיבות דואר';
 $labels['space_used'] = 'מכסת תיבת הדואר המשומשת';
 $labels['space_free'] = 'מכסת תיבת דואר חינם';

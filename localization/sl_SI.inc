@@ -1,6 +1,7 @@
 <?php
 $labels = array();
 $labels['quota_plugin_title'] = 'Kvota poštnih predalov';
+$labels['quotasettings'] = 'Kvota poštnih predalov';
 $labels['chart_title'] = 'Diagram kvote poštnih predalov';
 $labels['space_used'] = 'Uporabljena kvota poštnih predalov';
 $labels['space_free'] = 'Kvota poštnega predala brezplačno';
