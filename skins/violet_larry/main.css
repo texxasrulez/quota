@@ -3,6 +3,14 @@
 	default CSS last updated in version 2009-09-26
 */
 
+:root {
+  --quota-used-color: #3f1a67;   /* red-ish */
+  --quota-free-color: #ddbbe4;   /* green-ish */
+  --quota-grid-color: #3f1a67;
+  --quota-bg-color: transparent; /* or a hex */
+  --quota-text-color: #3f1a67;
+}
+
 #settings-sections a.quota,
 #settings-sections li.quota > a,
 a.listitem.quota,

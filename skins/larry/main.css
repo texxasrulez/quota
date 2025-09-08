@@ -3,6 +3,14 @@
 	default CSS last updated in version 2009-09-26
 */
 
+:root {
+  --quota-used-color: #59c2ef;   /* red-ish */
+  --quota-free-color: #d9ecf4;   /* green-ish */
+  --quota-grid-color: #c7e3ef;
+  --quota-bg-color: transparent; /* or a hex */
+  --quota-text-color: #c7e3ef;
+}
+
 #settings-sections a.quota,
 #settings-sections li.quota > a,
 a.listitem.quota,
@@ -22,3 +30,4 @@ a.listitem.quota:hover,
 li.quota > a.selected {
   background-image: url('./images/quota_act.svg') !important;
 }
+
