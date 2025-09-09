@@ -27,8 +27,26 @@ class quota extends rcube_plugin
         $this->add_texts('localization/', true);
         $this->add_hook('settings_actions', [$this, 'settings_actions']);
         $this->register_action('plugin.quota', [$this, 'quota_init']);
+
+        // Always load vendor lib
         $this->include_script('canvasjs.min.js');
-        $this->include_script('canvasjs.chart.js');
+
+        // Prefer per-skin chart script if present, else fall back to root
+        $skin_path = $this->local_skin_path(); // e.g. "plugins/quota/skins/elastic"
+        $skin_chart_rel = $skin_path ? ($skin_path . '/canvasjs.chart.js') : null;
+        $skin_chart_abs = ($skin_path && property_exists($this, 'home'))
+            ? $this->home . '/' . $skin_chart_rel
+            : null;
+
+        if ($skin_chart_abs && @is_file($skin_chart_abs)) {
+            // Per-skin JS (contains willReadFrequently patch + theme wrapper)
+            $this->include_script($skin_chart_rel);
+        } else {
+            // Fallback to plugin root JS
+            $this->include_script('canvasjs.chart.js');
+        }
+
+        // Your skin CSS, as before
         $this->include_stylesheet($this->local_skin_path() . '/main.css');
     }
 
@@ -36,8 +54,8 @@ class quota extends rcube_plugin
     {
         $args['actions'][] = [
             'action' => 'plugin.quota',
-            'class' => 'quota',
-            'label' => 'quota_plugin_title',
+            'class'  => 'quota',
+            'label'  => 'quota_plugin_title',
             'domain' => 'quota',
         ];
 
